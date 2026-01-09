@@ -1,4 +1,4 @@
-sudo apt update && sudo apt dist-upgrade
+sudo apt update && sudo apt dist-upgrade -y
 sudo apt-get install iptables iptables-persistent netfilter-persistent
 
 Copy the files to /etc/iptables
